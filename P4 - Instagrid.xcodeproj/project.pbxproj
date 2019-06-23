@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30BB44222BFD21000B26EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB44122BFD21000B26EF4 /* AppDelegate.swift */; };
+		B30BB44422BFD21000B26EF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB44322BFD21000B26EF4 /* ViewController.swift */; };
+		B30BB44722BFD21000B26EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30BB44522BFD21000B26EF4 /* Main.storyboard */; };
+		B30BB44922BFD21200B26EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30BB44822BFD21200B26EF4 /* Assets.xcassets */; };
+		B30BB44C22BFD21200B26EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30BB44A22BFD21200B26EF4 /* LaunchScreen.storyboard */; };
+		B30BB45822BFD28C00B26EF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B30BB45722BFD28C00B26EF4 /* Default-568h@2x.png */; };
+		B30BB45A22BFD2BE00B26EF4 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB45922BFD2BE00B26EF4 /* Grid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B30BB43E22BFD21000B26EF4 /* P4 - Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P4 - Instagrid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30BB44122BFD21000B26EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B30BB44322BFD21000B26EF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B30BB44622BFD21000B26EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B30BB44822BFD21200B26EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30BB44B22BFD21200B26EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B30BB44D22BFD21200B26EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30BB45722BFD28C00B26EF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B30BB45922BFD2BE00B26EF4 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30BB43B22BFD21000B26EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30BB43522BFD21000B26EF4 = {
+			isa = PBXGroup;
+			children = (
+				B30BB45722BFD28C00B26EF4 /* Default-568h@2x.png */,
+				B30BB44022BFD21000B26EF4 /* P4 - Instagrid */,
+				B30BB43F22BFD21000B26EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30BB43F22BFD21000B26EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB43E22BFD21000B26EF4 /* P4 - Instagrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30BB44022BFD21000B26EF4 /* P4 - Instagrid */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB45422BFD24800B26EF4 /* Supporting files */,
+				B30BB45322BFD23200B26EF4 /* Model */,
+				B30BB45522BFD25600B26EF4 /* View */,
+				B30BB45622BFD25B00B26EF4 /* Controller */,
+				B30BB44322BFD21000B26EF4 /* ViewController.swift */,
+			);
+			path = "P4 - Instagrid";
+			sourceTree = "<group>";
+		};
+		B30BB45322BFD23200B26EF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB45922BFD2BE00B26EF4 /* Grid.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B30BB45422BFD24800B26EF4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB44122BFD21000B26EF4 /* AppDelegate.swift */,
+				B30BB44822BFD21200B26EF4 /* Assets.xcassets */,
+				B30BB44A22BFD21200B26EF4 /* LaunchScreen.storyboard */,
+				B30BB44D22BFD21200B26EF4 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		B30BB45522BFD25600B26EF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB44522BFD21000B26EF4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B30BB45622BFD25B00B26EF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30BB43D22BFD21000B26EF4 /* P4 - Instagrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30BB45022BFD21200B26EF4 /* Build configuration list for PBXNativeTarget "P4 - Instagrid" */;
+			buildPhases = (
+				B30BB43A22BFD21000B26EF4 /* Sources */,
+				B30BB43B22BFD21000B26EF4 /* Frameworks */,
+				B30BB43C22BFD21000B26EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P4 - Instagrid";
+			productName = "P4 - Instagrid";
+			productReference = B30BB43E22BFD21000B26EF4 /* P4 - Instagrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30BB43622BFD21000B26EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jean-Baptiste Deslandes";
+				TargetAttributes = {
+					B30BB43D22BFD21000B26EF4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B30BB43922BFD21000B26EF4 /* Build configuration list for PBXProject "P4 - Instagrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B30BB43522BFD21000B26EF4;
+			productRefGroup = B30BB43F22BFD21000B26EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30BB43D22BFD21000B26EF4 /* P4 - Instagrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30BB43C22BFD21000B26EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30BB44C22BFD21200B26EF4 /* LaunchScreen.storyboard in Resources */,
+				B30BB45822BFD28C00B26EF4 /* Default-568h@2x.png in Resources */,
+				B30BB44922BFD21200B26EF4 /* Assets.xcassets in Resources */,
+				B30BB44722BFD21000B26EF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30BB43A22BFD21000B26EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30BB44422BFD21000B26EF4 /* ViewController.swift in Sources */,
+				B30BB44222BFD21000B26EF4 /* AppDelegate.swift in Sources */,
+				B30BB45A22BFD2BE00B26EF4 /* Grid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B30BB44522BFD21000B26EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30BB44622BFD21000B26EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B30BB44A22BFD21200B26EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30BB44B22BFD21200B26EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B30BB44E22BFD21200B26EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B30BB44F22BFD21200B26EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B30BB45122BFD21200B26EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7GBP4WKQU;
+				INFOPLIST_FILE = "$(SRCROOT)/P4 - Instagrid/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.deslandesjeanbaptiste.P4---Instagrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B30BB45222BFD21200B26EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7GBP4WKQU;
+				INFOPLIST_FILE = "$(SRCROOT)/P4 - Instagrid/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.deslandesjeanbaptiste.P4---Instagrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30BB43922BFD21000B26EF4 /* Build configuration list for PBXProject "P4 - Instagrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30BB44E22BFD21200B26EF4 /* Debug */,
+				B30BB44F22BFD21200B26EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30BB45022BFD21200B26EF4 /* Build configuration list for PBXNativeTarget "P4 - Instagrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30BB45122BFD21200B26EF4 /* Debug */,
+				B30BB45222BFD21200B26EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B30BB43622BFD21000B26EF4 /* Project object */;
+}
