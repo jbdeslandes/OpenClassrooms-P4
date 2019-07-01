@@ -12,8 +12,9 @@
 		B30BB44722BFD21000B26EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30BB44522BFD21000B26EF4 /* Main.storyboard */; };
 		B30BB44922BFD21200B26EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30BB44822BFD21200B26EF4 /* Assets.xcassets */; };
 		B30BB44C22BFD21200B26EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30BB44A22BFD21200B26EF4 /* LaunchScreen.storyboard */; };
-		B30BB45822BFD28C00B26EF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B30BB45722BFD28C00B26EF4 /* Default-568h@2x.png */; };
 		B30BB45A22BFD2BE00B26EF4 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB45922BFD2BE00B26EF4 /* Grid.swift */; };
+		B30BB46422CA7F4600B26EF4 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B30BB46222CA7F4600B26EF4 /* ThirstySoftRegular.otf */; };
+		B30BB46522CA7F4600B26EF4 /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B30BB46322CA7F4600B26EF4 /* Delm-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		B30BB44822BFD21200B26EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30BB44B22BFD21200B26EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B30BB44D22BFD21200B26EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B30BB45722BFD28C00B26EF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B30BB45922BFD2BE00B26EF4 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		B30BB46222CA7F4600B26EF4 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
+		B30BB46322CA7F4600B26EF4 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		B30BB43522BFD21000B26EF4 = {
 			isa = PBXGroup;
 			children = (
-				B30BB45722BFD28C00B26EF4 /* Default-568h@2x.png */,
 				B30BB44022BFD21000B26EF4 /* P4 - Instagrid */,
 				B30BB43F22BFD21000B26EF4 /* Products */,
 			);
@@ -82,7 +83,9 @@
 				B30BB44122BFD21000B26EF4 /* AppDelegate.swift */,
 				B30BB44822BFD21200B26EF4 /* Assets.xcassets */,
 				B30BB44A22BFD21200B26EF4 /* LaunchScreen.storyboard */,
+				B30BB46322CA7F4600B26EF4 /* Delm-Medium.otf */,
 				B30BB44D22BFD21200B26EF4 /* Info.plist */,
+				B30BB46222CA7F4600B26EF4 /* ThirstySoftRegular.otf */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -160,8 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30BB46422CA7F4600B26EF4 /* ThirstySoftRegular.otf in Resources */,
+				B30BB46522CA7F4600B26EF4 /* Delm-Medium.otf in Resources */,
 				B30BB44C22BFD21200B26EF4 /* LaunchScreen.storyboard in Resources */,
-				B30BB45822BFD28C00B26EF4 /* Default-568h@2x.png in Resources */,
 				B30BB44922BFD21200B26EF4 /* Assets.xcassets in Resources */,
 				B30BB44722BFD21000B26EF4 /* Main.storyboard in Resources */,
 			);
