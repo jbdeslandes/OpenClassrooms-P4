@@ -46,5 +46,7 @@
 		<string>Delm-Medium.otf</string>
 		<string>ThirstySoRegular.otf</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app takes photo from your library</string>
 </dict>
 </plist>

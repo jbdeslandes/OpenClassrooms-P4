@@ -54,13 +54,16 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLb-Q9-VEB">
                                                         <rect key="frame" x="0.0" y="0.0" width="154.5" height="154.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOw-k0-2lB">
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOw-k0-2lB">
                                                                 <rect key="frame" x="0.0" y="0.0" width="154.5" height="154.5"/>
                                                                 <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zq-0B-fvn">
                                                                 <rect key="frame" x="53.5" y="53.5" width="48" height="48"/>
                                                                 <state key="normal" image="Image"/>
+                                                                <connections>
+                                                                    <action selector="plusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USF-KV-Duc"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,13 +103,16 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FtA-fa-5eS">
                                                         <rect key="frame" x="169.5" y="0.0" width="154.5" height="154.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q2u-7B-a6j">
+                                                            <imageView clipsSubviews="YES" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q2u-7B-a6j">
                                                                 <rect key="frame" x="0.0" y="0.0" width="154.5" height="154.5"/>
                                                                 <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvp-Qa-Rkp">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvp-Qa-Rkp">
                                                                 <rect key="frame" x="53.5" y="53.5" width="48" height="48"/>
                                                                 <state key="normal" image="Image"/>
+                                                                <connections>
+                                                                    <action selector="plusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ps-SJ-fnn"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -164,13 +170,16 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ywe-y2-8Ge">
                                                         <rect key="frame" x="0.0" y="0.0" width="154.5" height="154.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A2S-AE-Ay3">
+                                                            <imageView clipsSubviews="YES" tag="2" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A2S-AE-Ay3">
                                                                 <rect key="frame" x="0.0" y="0.0" width="154.5" height="154.5"/>
                                                                 <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oB2-ds-LTD">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oB2-ds-LTD">
                                                                 <rect key="frame" x="53.5" y="53.5" width="48" height="48"/>
                                                                 <state key="normal" image="Image"/>
+                                                                <connections>
+                                                                    <action selector="plusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nSV-b7-xNO"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -210,13 +219,16 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DOR-nY-4We">
                                                         <rect key="frame" x="169.5" y="0.0" width="154.5" height="154.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RTb-kG-Ix5">
+                                                            <imageView clipsSubviews="YES" tag="3" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RTb-kG-Ix5">
                                                                 <rect key="frame" x="0.0" y="0.0" width="154.5" height="154.5"/>
                                                                 <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="das-3O-UlM">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="das-3O-UlM">
                                                                 <rect key="frame" x="53.5" y="53.5" width="48" height="48"/>
                                                                 <state key="normal" image="Image"/>
+                                                                <connections>
+                                                                    <action selector="plusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWH-KO-rb7"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -412,6 +424,10 @@
                                 <exclude reference="QuH-Ao-nid"/>
                                 <exclude reference="sKS-un-IFr"/>
                                 <exclude reference="smQ-9q-cTf"/>
+                                <exclude reference="M9X-o9-fGH"/>
+                                <exclude reference="P9f-Jc-tmg"/>
+                                <exclude reference="PtN-JZ-yk5"/>
+                                <exclude reference="WqU-ld-aLV"/>
                                 <exclude reference="9RI-lb-1ip"/>
                                 <exclude reference="37y-1X-0rh"/>
                                 <exclude reference="7BI-IQ-DfX"/>
@@ -423,10 +439,6 @@
                                 <exclude reference="cJ1-S4-d4Q"/>
                                 <exclude reference="csd-AN-a3K"/>
                                 <exclude reference="kIa-9e-BhO"/>
-                                <exclude reference="M9X-o9-fGH"/>
-                                <exclude reference="P9f-Jc-tmg"/>
-                                <exclude reference="PtN-JZ-yk5"/>
-                                <exclude reference="WqU-ld-aLV"/>
                                 <exclude reference="B1Y-Rg-cGe"/>
                                 <exclude reference="Fxf-xW-cDK"/>
                                 <exclude reference="UfA-nz-urW"/>
@@ -439,6 +451,12 @@
                                 <exclude reference="dIZ-fj-mYE"/>
                                 <exclude reference="sKS-un-IFr"/>
                                 <exclude reference="smQ-9q-cTf"/>
+                                <exclude reference="25Y-d0-PRD"/>
+                                <exclude reference="M9X-o9-fGH"/>
+                                <include reference="P9f-Jc-tmg"/>
+                                <exclude reference="PtN-JZ-yk5"/>
+                                <include reference="WqU-ld-aLV"/>
+                                <exclude reference="uDs-ph-NXt"/>
                                 <include reference="9RI-lb-1ip"/>
                                 <exclude reference="37y-1X-0rh"/>
                                 <exclude reference="4X8-AP-JAv"/>
@@ -455,12 +473,6 @@
                                 <exclude reference="hNr-Hq-d5j"/>
                                 <include reference="kIa-9e-BhO"/>
                                 <exclude reference="xsq-5T-Xuf"/>
-                                <exclude reference="25Y-d0-PRD"/>
-                                <exclude reference="M9X-o9-fGH"/>
-                                <include reference="P9f-Jc-tmg"/>
-                                <exclude reference="PtN-JZ-yk5"/>
-                                <include reference="WqU-ld-aLV"/>
-                                <exclude reference="uDs-ph-NXt"/>
                                 <include reference="B1Y-Rg-cGe"/>
                                 <exclude reference="Fxf-xW-cDK"/>
                                 <include reference="UfA-nz-urW"/>
@@ -470,6 +482,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="gridView" destination="RS3-BZ-xek" id="LY5-7I-Mag"/>
                         <outletCollection property="contentViews" destination="WLb-Q9-VEB" collectionClass="NSMutableArray" id="EGa-Zx-UvY"/>
                         <outletCollection property="contentViews" destination="FtA-fa-5eS" collectionClass="NSMutableArray" id="YvE-8J-U6U"/>
                         <outletCollection property="contentViews" destination="ywe-y2-8Ge" collectionClass="NSMutableArray" id="nPd-sP-fJh"/>
@@ -477,6 +490,14 @@
                         <outletCollection property="patternButtons" destination="Rr1-eQ-Js7" collectionClass="NSMutableArray" id="A5b-7C-eoR"/>
                         <outletCollection property="patternButtons" destination="18Z-Cj-Jed" collectionClass="NSMutableArray" id="9yD-jI-ygd"/>
                         <outletCollection property="patternButtons" destination="QEm-jX-ruf" collectionClass="NSMutableArray" id="bgH-6Y-Coo"/>
+                        <outletCollection property="plusButtons" destination="8zq-0B-fvn" collectionClass="NSMutableArray" id="Dt3-7E-Zfe"/>
+                        <outletCollection property="plusButtons" destination="Pvp-Qa-Rkp" collectionClass="NSMutableArray" id="5v5-9A-NMg"/>
+                        <outletCollection property="plusButtons" destination="oB2-ds-LTD" collectionClass="NSMutableArray" id="6cL-hI-HUB"/>
+                        <outletCollection property="plusButtons" destination="das-3O-UlM" collectionClass="NSMutableArray" id="It5-MO-Udc"/>
+                        <outletCollection property="imageViews" destination="XOw-k0-2lB" collectionClass="NSMutableArray" id="DIN-69-bkJ"/>
+                        <outletCollection property="imageViews" destination="Q2u-7B-a6j" collectionClass="NSMutableArray" id="1wM-nI-Z5i"/>
+                        <outletCollection property="imageViews" destination="A2S-AE-Ay3" collectionClass="NSMutableArray" id="KvB-1L-wD8"/>
+                        <outletCollection property="imageViews" destination="RTb-kG-Ix5" collectionClass="NSMutableArray" id="4Vr-Xy-kYx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
