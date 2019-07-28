@@ -51,16 +51,19 @@ class ViewController: UIViewController {
     @objc func setUpSwipeDirection() {
         if UIDevice.current.orientation.isLandscape {
             swipeGestureRecognizer?.direction = .left
-            print("Swipe left")
         } else {
             swipeGestureRecognizer?.direction = .up
-            print("Swipe up")
         }
     }
     
     @objc func gridViewSwiped() {
+//      Demande d'explications
+        let renderer = UIGraphicsImageRenderer(size: gridView.bounds.size)
+        let image = renderer.image { ctx in
+            gridView.drawHierarchy(in: gridView.bounds, afterScreenUpdates: true)
+        }
         
-        let shareViewController = UIActivityViewController(activityItems: [gridView!], applicationActivities: nil)
+        let shareViewController = UIActivityViewController(activityItems: [image], applicationActivities: nil)
         present(shareViewController, animated: true, completion: nil)
     }
     
