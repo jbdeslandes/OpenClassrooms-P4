@@ -12,6 +12,7 @@ enum Grid {
 
    case layout1, layout2, layout3
     
+    /// Return gridView Dispositions
     var display: [Bool] {
         switch self {
         case .layout1:

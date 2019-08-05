@@ -15,6 +15,8 @@
 		B30BB45A22BFD2BE00B26EF4 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB45922BFD2BE00B26EF4 /* Grid.swift */; };
 		B30BB46422CA7F4600B26EF4 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B30BB46222CA7F4600B26EF4 /* ThirstySoftRegular.otf */; };
 		B30BB46522CA7F4600B26EF4 /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B30BB46322CA7F4600B26EF4 /* Delm-Medium.otf */; };
+		B30C20B322EF657600B9A22F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C20B222EF657600B9A22F /* UIView.swift */; };
+		B30C20B522EF675300B9A22F /* UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C20B422EF675300B9A22F /* UIImagePickerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B30BB45922BFD2BE00B26EF4 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		B30BB46222CA7F4600B26EF4 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 		B30BB46322CA7F4600B26EF4 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		B30C20B222EF657600B9A22F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B30C20B422EF675300B9A22F /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		B30BB44022BFD21000B26EF4 /* P4 - Instagrid */ = {
 			isa = PBXGroup;
 			children = (
+				B30C20B122EF655900B9A22F /* Extensions */,
 				B30BB45422BFD24800B26EF4 /* Supporting files */,
 				B30BB45322BFD23200B26EF4 /* Model */,
 				B30BB45522BFD25600B26EF4 /* View */,
@@ -103,6 +108,15 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B30C20B122EF655900B9A22F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30C20B222EF657600B9A22F /* UIView.swift */,
+				B30C20B422EF675300B9A22F /* UIImagePickerController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30C20B322EF657600B9A22F /* UIView.swift in Sources */,
 				B30BB44422BFD21000B26EF4 /* ViewController.swift in Sources */,
 				B30BB44222BFD21000B26EF4 /* AppDelegate.swift in Sources */,
 				B30BB45A22BFD2BE00B26EF4 /* Grid.swift in Sources */,
+				B30C20B522EF675300B9A22F /* UIImagePickerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
