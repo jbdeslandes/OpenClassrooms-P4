@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 
     // MARK: - Properties
 
-    private let imagePicker = UIImagePickerController()
+    private lazy var imagePicker = UIImagePickerController()
 
     private var swipeGestureRecognizer: UISwipeGestureRecognizer?
 
@@ -66,6 +66,7 @@ class ViewController: UIViewController {
         }
     }
 
+    /// Change swipe direction for portrait / landscape
     @objc private func setUpSwipeDirection() {
         if UIDevice.current.orientation.isLandscape {
             swipeGestureRecognizer?.direction = .left
@@ -76,8 +77,6 @@ class ViewController: UIViewController {
     
     /// Swipe animation
     @objc private func gridViewSwiped() {
-
-        // closure = self.
         if swipeGestureRecognizer?.direction == .up {
             UIView.animate(withDuration: 0.5, animations: {
                 self.gridView.transform = CGAffineTransform(translationX: 0, y: -self.view.frame.height)
@@ -93,6 +92,7 @@ class ViewController: UIViewController {
         }
     }
 
+    /// Present imagePicker when plusButton isHidden
     @objc private func imageViewTapped(_ sender: UITapGestureRecognizer) {
         guard let tag = sender.view?.tag else { return }
         index = tag
